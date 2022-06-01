@@ -104,7 +104,7 @@ function updateTime() {
   if (hours > 12){
     hours -= 12;
   }
-  //print("Hours: " + hours + " Minutes: "+ minutes + " Seconds: " + seconds);
+  print("Hours: " + hours + " Minutes: "+ minutes + " Seconds: " + seconds);
 }
 
 function newY(amplitude, offset, t) {
