@@ -5,7 +5,6 @@ var seconds;
 var colors;
 
 function setup() {
-  // put setup code here
   createCanvas(800, 800);
   background('#F5F2E1');
   updateTime();
@@ -13,7 +12,6 @@ function setup() {
 }
 
 function draw() {
-  // put drawing code here
   background('#F5F2E1');
   clockFace();
   drawHand("hour");
